@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Center the container */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style the header */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the buttons */
+  button {
+    margin: 10px;
+    width: 250px;
+    height: 60px;
+  border: 3px solid #315cfd;
+  border-radius: 35px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  /* Style the Restart button */
+  #Restart {
+    height: 3em;
+    width: 8em;
+    border: none;
+    border-radius: 10em;
+    background: #016DD9;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+  }
+  
+  #Restart:hover {
+    animation: shake3856 0.3s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   }
+   
+  /* Style the result and score */
+  .Result, .Score {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Style the main content */
+  main {
+    background-color: #f2f2f2; /* Background color for the main content */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
