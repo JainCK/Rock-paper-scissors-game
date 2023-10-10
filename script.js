@@ -1,3 +1,9 @@
+const resultBox = document.getElementById("Result");
+const rockBtn = document.getElementById("Rock");
+const paperBtn = document.getElementById("Paper");
+const ScissorsBtn = document.getElementById("Scissors");
+
+
 // Function to get the computer's choice
 function getComputerChoice() {
     const choices = ["Rock", "Paper", "Scissors"];
@@ -25,7 +31,7 @@ function getComputerChoice() {
   }
   
   // Example usage
-  const playerSelection = prompt("Enter your choice: Rock, Paper, or Scissors");
-  const computerSelection = getComputerChoice();
-  console.log(playRound(playerSelection, computerSelection));
+  //const playerSelection = prompt("Enter your choice: Rock, Paper, or Scissors");
+  //const computerSelection = getComputerChoice();
+  //console.log(playRound(playerSelection, computerSelection));
   
